@@ -14,7 +14,7 @@ CS2 has an unprotected command which allows to constantly print viewangles to th
 2. IOS-> Go to the files app, tap on the 3 dots in the top-right corner and tap "Connect to Server"
 3. IOS-> Enter the server details displayed by the precache.bat and tap Connect
 4. IOS-> Run iSH app on your phone
-5. IOS-> Execute this command: `wget https://raw.githubusercontent.com/ho9/cs2-viewangles/source-code/mobile/viewangles.sh` (If you dont have wget, install it with `apk add wget`)
+5. IOS-> Execute this command: `wget https://raw.githubusercontent.com/ho9/cs2-viewangles/main/source-code/mobile/viewangles.sh` (If you dont have wget, install it with `apk add wget`)
 6. PC-> Load into a map in CS2
 7. IOS-> Run the script with this command: `./viewangles.sh`
 8. Enjoy viewangles without any executables running on the PC
