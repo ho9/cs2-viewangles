@@ -9,7 +9,10 @@
 ### How does it work?
 CS2 has an unprotected command which allows to constantly print viewangles to the console. To display this information on the phone without any executables running on the PC you need to LAN share a CS2 folder first and launch the game with `-condebug` parameter which allows you to dump everything from the console to a file in the CS2 directory, in our case to a LAN shared folder. After this I'm jest reading the last line of that file in a loop with a bash script from iSH.
 
-### Setup:
+### What are the use cases?
+Airstucks, pixelsurfs and grenade lineups
+
+### Setup
 1. PC-> Run precache.bat, click "E" to enable folder sharing
 2. IOS-> Go to the files app, tap on the 3 dots in the top-right corner and tap "Connect to Server"
 3. IOS-> Enter the server details displayed by the precache.bat and tap Connect
