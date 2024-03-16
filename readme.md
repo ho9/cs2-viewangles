@@ -3,8 +3,8 @@
 ### [YouTube video](https://youtu.be)
 ### [Join the community](https://t.me/precache)
 
-## 
-<img src="#" alt="Screenshot" style="width: 50%">
+## Preview
+<img src="https://i.ibb.co/0Kr2P7w/thumbnail.jpg" alt="Preview" style="width: 50%">
 
 ### How does it work?
 CS2 has an unprotected command which allows to constantly print viewangles to the console. To display this information on the phone without any executables running on the PC you need to LAN share a CS2 folder first and launch the game with `-condebug` parameter which allows you to dump everything from the console to a file in the CS2 directory, in our case to a LAN shared folder. After this I'm jest reading the last line of that file in a loop with a bash script from iSH.
