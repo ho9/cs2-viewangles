@@ -20,7 +20,7 @@ CS2 has an unprotected command which allows to constantly print viewangles to th
 8. Enjoy viewangles without any executables running on the PC
    
 ### Disabling
-1. PC-> Run precache.bat, click "D" to disable folder sharing
-2. PC-> In CS2 console type `exec reset`
-3. IOS-> Close the iSH app and disconnect from the server in the files app
+1. IOS-> Close the iSH app and disconnect from the server in the files app
+2. PC-> Run precache.bat, click "D" to disable folder sharing
+3. PC-> In CS2 console type `exec reset`
 <hr>
