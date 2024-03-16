@@ -1,6 +1,6 @@
 # cs2-viewangles
 
-### [YouTube video](https://youtu.be)
+### [YouTube video](https://youtu.be/tlISSsqVEXk)
 ### [Join the community](https://t.me/precache)
 
 ## Preview
