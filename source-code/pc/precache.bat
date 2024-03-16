@@ -19,9 +19,10 @@ for /f "tokens=2 delims=:" %%x in ('ipconfig ^| findstr /C:"IPv4 Address"') do (
 echo Server:%ip%
 echo Username: %user%
 echo Password: %password%
-echo.
-echo Press any key to launch cs2 and close this script.
-pause >nul
+:loop
+for /f "tokens=*" %%i in ('net session ^| findstr /i "%user%"') do (goto endloop)
+goto loop
+:endloop
 "%steampath%\steam.exe" -applaunch 730 -condebug -conclearlog +exec viewangles & exit
 
 :disable
