@@ -12,16 +12,17 @@ CS2 has an unprotected command which allows to constantly print viewangles to th
 ### What are the use cases?
 Airstucks, pixelsurfs and grenade lineups
 
-### Setup
+### First setup
 1. PC-> Run precache.bat, click "E" to enable folder sharing
 2. IOS-> Go to the files app, tap on the 3 dots in the top-right corner and tap "Connect to Server"
 3. IOS-> Enter the server details displayed by the precache.bat and tap Connect
 4. IOS-> Run iSH app on your phone
 5. IOS-> Execute this command: `wget https://raw.githubusercontent.com/ho9/cs2-viewangles/main/source-code/mobile/viewangles.sh` (If you dont have wget, install it with `apk add wget`)
-6. PC-> Load into a map in CS2
-7. IOS-> Run the script with this command: `./viewangles.sh`
-8. IOS-> Tap on the server ip->exploit and tap "Open" 
-9. Enjoy viewangles without any executables running on the PC
+6. IOS-> Execute this command: `chmod +x viewangles.sh`
+7. PC-> Load into a map in CS2
+8. IOS-> Run the script with this command: `./viewangles.sh`
+9. IOS-> Tap on the server ip->exploit and tap "Open" 
+10. Enjoy viewangles without any executables running on the PC
    
 ### Disabling
 1. IOS-> Close the iSH app and disconnect from the server in the files app
